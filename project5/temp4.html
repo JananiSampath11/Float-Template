@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Template4</title>
+        <style>
+            body{
+                margin:0;
+                
+            }
+            .div1{
+                background-color: white;
+                width:50%;
+                height:100px;
+                float:left;
+                text-align: center;
+            }
+            .div2{
+                background-color:white;
+                width:50%;
+                height:100px;
+                float:left;
+            }
+            .list{
+                padding: 20px;
+            }
+            li{
+                display: inline;
+                
+                padding: 10px 16px;
+            }
+            .hov:hover{
+                background-color: #c4f026;
+            }
+            #drp1{
+                border: none;
+            }
+            #drp1:hover{
+                background-color: #c4f026;
+            }
+            #drp2{
+                border: none;
+            }
+            #drp2:hover{
+                background-color: #c4f026;
+            }
+            .main{
+                width: 80%;
+                background-color:black;
+                padding:5% 10%;
+                display: inline-block;
+                
+            }
+            .sleft{
+                float:left;
+                width:32%;
+               
+               
+            }
+            .scenter{
+                float:left;
+                width:32%;
+               
+                margin-left: 2%;
+            }
+            .sright{
+                float:left;
+                width:32%;
+               
+                margin-left: 2%;
+            }
+            
+            .d1h{
+                width:94%;
+                background-color:rgb(233, 227, 227);
+                display:inline-block;
+                text-align: center;
+                padding:1% 3%;
+                font-size: 20px;
+            }
+            .d1{
+                width:94%;
+                background-color: beige;
+                display: inline-block;
+                text-align: center;
+                padding:2% 3%;
+            }
+            .d1f{
+                width:96%;
+                background-color: rgb(156, 211, 75);
+                display: inline-block;
+                text-align: center;
+                padding:2%;
+                color:white;
+                font-weight: bold;
+            }
+            .sub{
+                width:80%;
+               
+                padding:4% 10%;
+                display: inline-block;
+            }
+            .left{
+                width:49%;
+                height:500px;
+               
+                float:left;
+				position: relative;
+                padding-right: 1%;
+            }
+            .right{
+                width:49%;
+                height:500px;
+                float:left;
+               
+                padding-left:1%;
+            }
+			.stxtover{
+				width:98%;
+				position: absolute;
+				top:74%;
+				background-color: rgba(0,0,0,0.5);
+                text-align: center;
+                padding: 10px 0px;
+                color:white;
+			}
+            .btn1{
+                background-color: white;
+                color:rgb(59, 184, 59);
+                border: 1px solid rgb(59, 184, 59);
+                padding: 2px;
+            }
+            .exp{
+                width:80%;
+                padding:4% 10%;
+                background-color: rgb(241, 241, 239);
+                text-align: center;
+                display: inline-block;
+            }
+            .expleft{
+                width:49%;
+                height:150px;
+                background-color: rgb(255, 136, 0);
+                color:white;
+                text-align: left;
+                float:left;
+                margin-right: 1%;
+                margin-top:2%;
+            }
+            .expright{
+                width:49%;
+                height:150px;
+                background-color: rgb(105, 223, 231);
+                color:white;
+                text-align: left;
+                float:left;
+                margin-left: 1%;
+                margin-top:2%;
+            }
+            .footer{
+                width:80%;
+                padding:4% 10%;
+                display: inline-block;
+                background-color: rgb(14, 4, 4);
+                
+            }
+            .fooleft{
+                width:32%;
+                color: gainsboro;
+                float:left;
+            }
+            .foocenter{
+                width:32%;
+                color: gainsboro;
+                padding-left: 2%;
+                padding-right: 2%;
+                float:left;
+            
+            }
+            .fooright{
+                width:32%;
+                color: gainsboro;
+                float:left;
+            }
+           .list2{
+                text-align: left;
+                padding: 0%;
+                list-style: none;
+            }
+            .li1{
+                color: rgb(36, 252, 36);
+                display: block;
+                
+            }
+            .logo{
+                background-color: black;
+            }
+            .cpy{
+                width:80%;
+                padding: 1% 10%;
+                background-color: black;
+                display: inline-block
+               
+            }
+            .bottom{
+                width: 100%;
+                color:grey;           
+               
+            }
+            /*.sfoo{
+                background-color: black;
+
+            }*/
+        </style>
+    </head>
+    <body>
+        <div width="100%">
+            <div class="div1">
+                <h2 style=" color:rgb(49, 165, 49)">FLOMIC</h2>
+                <p style=" color:rgb(49, 155, 49);font-weight:bold">LOGISTIC PVT.LTD</p>
+            </div>
+            <div class="div2">
+                <ul class="list">
+                    <li class="hov">HOME</li>
+                    <li class="hov">
+                        <select name="drp1" id="drp1">
+                            <option value="pages">PAGES</option>
+                            <option value="link1">link1</option>
+                            <option value="link2">link2</option>
+                            <option value="link3">link3</option>
+                        </select>
+                    </li>
+                    <li class="hov">
+                        <select name="drp2" id="drp2">
+                            <option value="pages">DROPDOWN</option>
+                            <option value="link1">link1</option>
+                            <option value="link2">link2</option>
+                            <option value="link3">link3</option>
+                        </select>
+                    </li>
+                    <li class="hov">LINKTEXT</li>
+                    <li class="hov">LINKTEXT</li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="sleft">
+                <div class="d1h">
+                    <h4>QUISQUE VEHICULA URNA AMET</h4>
+                </div>
+                <div class="d1">
+                    <p>ullamcorper mauris sit amet</p>
+                    <p>sed eget ultricies sem</p>
+                    <p>proin quis lacus egestas</p>
+                    <p>adipis cing ornare</p>
+                    <p>donec luctus convallis rhoncus</p>
+                </div>
+                <div class="d1f">
+                    <p>READ MORE >></p>
+                </div>
+            </div>
+            <div class="scenter">
+                <div class="d1h">
+                    <h4>QUISQUE VEHICULA URNA AMET</h4>
+                </div>
+                <div class="d1">
+                    <p>ullamcorper mauris sit amet</p>
+                    <p>sed eget ultricies sem</p>
+                    <p>proin quis lacus egestas</p>
+                    <p>adipis cing ornare</p>
+                    <p>donec luctus convallis rhoncus</p>
+                </div>
+                <div class="d1f">
+                    <p>READ MORE >></p>
+                </div>
+            </div>
+            <div class="sright">
+                <div class="d1h">
+                    <h4>QUISQUE VEHICULA URNA AMET</h4>
+                </div>
+                <div class="d1">
+                    <p>ullamcorper mauris sit amet</p>
+                    <p>sed eget ultricies sem</p>
+                    <p>proin quis lacus egestas</p>
+                    <p>adipis cing ornare</p>
+                    <p>donec luctus convallis rhoncus</p>
+                </div>
+                <div class="d1f">
+                    <p>READ MORE >></p>
+                </div>
+            </div>
+        </div>
+        <div class="sub">
+            <div class="left">
+                <!--<div class="stop"><p>MAECENAS LIBERO NUNC EU ERAT</p></div>
+                <div class="scen">
+                    <img src="images/bg.jpg" alt="reference image" style="width:100%">
+                </div>
+                <div class="sfoo">
+                    <h4 style="text-align:center;color:white">QUISQUE VEHICULA URNA AMET</h4>
+                    <p  style="text-align:center;color:white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, id.</p>
+                    <button class="btn1" style="color:green;background-color: black;border: 1px green;">READ MORE></button>
+                </div>-->
+                <h4 style="font-size:20px;font-weight:bold">MAECENAS LIBERO NUNC EU ERAT</h4>
+                <img src="images/bg2.jpg" alt="reference image" style="width:100%;height:450px">
+                <div class="stxtover">
+                    <h4>URNA SIT AMET PULVINAR</h4>
+                    <p>Aenean semper elementum tellus,ut placerat leo. Quisque vehicula, urna sit amet....</p>
+                    <button class="btn1" style="color:rgb(59, 184, 59);background-color: transparent">READ MORE></button>
+				</div>
+            </div>
+            <div class="right">
+                <div><h4 style="font-size:20px;font-weight:bold">ETIAM EROS NULLA POSUERE</h4></div>
+                <div>
+                    <img src="images/bg.jpg" alt="reference image" style="float:left;width:100px;margin-right:20px;height:100px;padding:5px;border:1px solid gray">
+                    <p><span style="font-size:20px;font-weight:bold">PHASELLUS MASSA FELIS IN</span> <br>By <span style="color:rgb(59, 184, 59)">A Name</span> Friday,6 April 2045</p>
+                    <p>Aenean semper elementum tellus,ut placerat leo. Quisque vehicula, urna sit amet....</p>
+                    <button class="btn1">READ MORE></button>
+                    <br>
+                    <hr>
+                </div>
+                <div>
+                    <img src="images/bg.jpg" alt="reference image" style="float:left;width:100px;margin-right:20px;height:100px;padding:5px;border:1px solid gray">
+                    <p><span style="font-size:20px;font-weight:bold">MORBI CONSECTETUR NISI</span> <br>By <span style="color:rgb(59, 184, 59)">A Name</span> Friday,6 April 2045</P>
+                    <p>Aenean semper elementum tellus,ut placerat leo. Quisque vehicula, urna sit amet....</p>
+                    <button class="btn1">READ MORE></button>
+                    <br>
+                    <hr>
+                </div>
+                <div>
+                    <img src="images/bg.jpg" alt="reference image" style="float:left;width:100px;height:100px;margin-right:20px;padding:5px;border:1px solid gray">
+                    <p><span style="font-size:20px;font-weight:bold">PROIN ULTRI FREUGIAT VITAE</span><br>By <span style="color:rgb(59, 184, 59)">A Name</span> Friday,6 April 2045</P>
+                    <p>Aenean semper elementum tellus,ut placerat leo. Quisque vehicula, urna sit amet....</p>
+                    <button class="btn1">READ MORE></button>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="exp">
+            <p><span  style="font-size:20px;font-weight:bold">DONEC FACILISIS VOLUTPAT LIGULA NEC EGESTAS</span><br>Integer varius enim id augue faucibus mattis. Pellentesquescelerisque nibh eu mi convallis, ac feugiat nulla tincidunt.</P>
+            <div class="expleft">
+                <img src="images/bg.jpg" alt="reference image" style="float:left;width:50%;height:150px;margin-right:20px">
+                <p style="padding:5px 15px;font-weight:bold;font-size:20px">QUISQUE VEHICULA URNA SIT AMET PULVINAR DAPIBUS</p>
+                <button style="color:white;border:1px solid white;background-color: transparent">READ MORE>></button>
+            </div>
+            <div class="expright">
+                <img src="images/bg.jpg" alt="reference image" style="float:left;width:50%;height:150px;margin-right:20px ">
+                <p style="padding:5px 15px;font-weight:bold;font-size:20px">QUISQUE VEHICULA URNA SIT AMET PULVINAR DAPIBUS</p>
+                <button style="color:white;border:1px solid white;background-color: transparent">READ MORE>></button>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="fooleft">
+                <h4>LOREM IPSUM DOLOR</h4>
+                <hr style="height:2px;color:black;background-color: black;border:none"><br>
+                <p>Donec sed ultrices eros. Nulla facilisi. Aliquam purus urna, porta non faucibus nec, luctusvitae ante. Suspendisse potenti. Morbi sollicitudin viverra urna, vel auctor purus volutpat vel.</p>
+                <p>Street Name & Number, Town, Postcode/Zip</p><p>+00(123)456 78900</p><p>info@domain.com</p>
+            </div>
+            <div class="foocenter">
+                <h4>QUICK LINKS</h4>
+                <hr style="height:2px;color:black;background-color: black;border:none"><br>
+                <ul class="list2">
+                    <li class="li1">Home Page</li>
+                    <li class="li1">Blog</li>
+                    <li class="li1">Gallery</li>
+                    <li class="li1">Portfolio</li>
+                    <li class="li1">Contact Us</li>
+                </ul>
+            </div>
+            <div class="fooright">
+                <h4>KEEP IN TOUCH</h4>
+                <hr style="height:2px;color:black;background-color: black;border:none"><br>
+                <input type="text" placeholder="Email"style="background-color:black;border:none;padding:10px;width:95%"><br><br>
+                <button type="submit" style="width:100px;font-weight:bold;background-color:rgb(141, 253, 66);color:white;border:none;padding: 5px;">SUBMIT</button>
+                <br><br><br><br><br>
+                <div class="logo">
+                    <img src="images/fb.png" style="border-radius:30px;width:30px;height:30px;padding: 2px 5px"alt="fb">
+                    <img src="images/pin.png" style="border-radius:30px;width:30px;height:30px;padding: 2px 5px"alt="pin">
+                    <img src="images/tweet.png" style="border-radius:30px;width:30px;height:30px;padding: 2px 5px"alt="tweet">
+                    <img src="images/inst.png" style="border-radius:30px;width:30px;height:30px;padding: 2px 5px"alt="insta">
+                    <img src="images/linkedin.png" style="border-radius:30px;width:30px;height:30px;padding: 2px 5px"alt="linkedin">
+                    <img src="images/goog.png" style="border-radius:30px;width:30px;height:30px;padding: 2px 5px"alt="google">
+                    <img src="images/wifi.png" style="border-radius:30px;width:30px;height:30px;padding: 2px 5px"alt="wifi">
+                </div>
+            </div>
+        </div>
+        <div class="cpy">
+            <div class="bottom">
+                <p>Copyright c 2015 - All Rights Reserved - Flomic</p>
+            </div>    
+        </div>
+    </body>
+</html>
