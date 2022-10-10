@@ -1,0 +1,551 @@
+body{
+    margin:0;
+}
+.div1{
+    background-color: white;
+    width:50%;
+    height:100px;
+    float:left;
+    text-align: center;
+}
+.div2{
+    background-color:white;
+    width:50%;
+    height:100px;
+    float:left;
+}
+.list{
+    padding: 20px;
+}
+li{
+    display: inline;
+    
+    padding: 10px 16px;
+}
+.hov:hover{
+    background-color: #c4f026;
+}
+#drp1{
+    border: none;
+}
+#drp1:hover{
+    background-color: #c4f026;
+}
+#drp2{
+    border: none;
+}
+#drp2:hover{
+    background-color: #c4f026;
+}
+.main{
+    width: 80%;
+    background-color:black;
+    padding:5% 10%;
+    display: inline-block;
+    
+}
+.sleft{
+    float:left;
+    width:32%;
+    /* height: 400px; */
+}
+.scenter{
+    float:left;
+    width:32%;
+    margin-left: 2%;
+}
+.sright{
+    float:left;
+    width:32%;
+    margin-left: 2%;
+}
+.imgg{
+    float:left;width:100px;
+    margin-right:20px;
+    height:100px;
+    padding:5px;
+    border:1px solid gray;
+}
+.d1h{
+    width:94%;
+    background-color:rgb(233, 227, 227);
+    display:inline-block;
+    text-align: center;
+    padding:1% 3%;
+    font-size: 20px;
+}
+.d1{
+    width:94%;
+    background-color: beige;
+    display: inline-block;
+    text-align: center;
+    padding:2% 3%;
+}
+.d1f{
+    width:96%;
+    background-color: rgb(156, 211, 75);
+    display: inline-block;
+    text-align: center;
+    padding:2%;
+    color:white;
+    font-weight: bold;
+}
+.sub{
+    width:80%;
+   height:500px;
+    padding:4% 10%;
+    /* display: inline-block; */
+}
+.left{
+    width:49%;
+    /* height:500px; */
+   
+    float:left;
+    position: relative;
+    padding-right: 1%;
+}
+.right{
+    width:49%;
+    /* height:500px; */
+    float:left;
+   
+    padding-left:1%;
+}
+.stxtover{
+    width:98%;
+    position: absolute;
+    top:69.3%;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 10px 0px;
+    color:white;
+}
+.btn1{
+    background-color: white;
+    color:rgb(59, 184, 59);
+    border: 1px solid rgb(59, 184, 59);
+    padding: 2px;
+}
+.exp{
+    width:80%;
+    padding:4% 10%;
+    background-color: rgb(241, 241, 239);
+    text-align: center;
+    display: inline-block;
+}
+.expleft{
+    width:49%;
+    height:150px;
+    background-color: rgb(255, 136, 0);
+    color:white;
+    text-align:left;
+    float:left;
+    margin-right: 1%;
+    margin-top:2%;
+}
+#expp1{
+    padding:5px 15px;
+    font-weight:bold;
+    font-size:20px;
+}
+.elb{
+    color:white;
+    border:1px solid white;
+    background-color: transparent;
+}
+.expright{
+    width:49%;
+    height:150px;
+    background-color: rgb(105, 223, 231);
+    color:white;
+    text-align: left;
+    float:left;
+    margin-left: 1%;
+    margin-top:2%;
+}
+#expp2{
+    padding:5px 15px;
+    font-weight:bold;
+    font-size:20px;
+}
+.footer{
+    width:80%;
+    padding:4% 10%;
+    display: inline-block;
+    background-color: rgb(87, 85, 85);
+    
+}
+.fooleft{
+    width:32%;
+    color: gainsboro;
+    float:left;
+}
+.foocenter{
+    width:32%;
+    color: gainsboro;
+    padding-left: 2%;
+    padding-right: 2%;
+    float:left;
+
+}
+.fooright{
+    width:32%;
+    color: gainsboro;
+    float:left;
+}
+.list2{
+    text-align: left;
+    padding: 0%;
+    list-style: none;
+}
+.li1{
+    color: rgb(36, 252, 36);
+    display: block;
+    
+}
+.logo{
+    background-color: black;
+    padding:10px;
+}
+.logo i{
+    padding-left: 18px;
+    font-size: 25px;
+}
+.cpy{
+    width:80%;
+    padding: 1% 10%;
+    background-color: black;
+    display: inline-block;
+   
+}
+.bottom{
+    width: 100%;
+    color:grey;           
+}
+.rs{
+    font-size:20px;
+    font-weight:bold;
+}
+.btn2{
+    color:rgb(59, 184, 59);
+    background-color: transparent;
+    border: 1px solid rgb(59, 184, 59);
+    padding: 2px;
+}
+@media only screen and (max-width:1218px){
+.div1{
+    width:50%;
+}
+.div2{
+    width:50%;
+}
+.list{
+    text-align: center;
+}
+/* .left{
+    width:100%;
+    margin-bottom: 50px;
+}
+.right{
+    width:100%;
+}
+.stxtover{
+    width:99%;
+    top:72%;
+} */
+#expp1{
+    font-size: 16px;
+    margin-bottom:0%;
+}
+#expp2{
+    font-size: 16px;
+    margin-bottom:0%;
+}
+.elb{
+    color:white;
+    border:1px solid white;
+    background-color: transparent;
+    width:100px;
+    font-size: 12px;
+    padding: 3px;
+}
+.logo i{
+    padding-top:10px;
+    padding-left: 25px;
+}
+}
+@media only screen and (max-width:1117px){
+    .div1{
+        width:50%;
+    }
+    .div2{
+        width:50%;
+    }
+    .list{
+        text-align: center;
+    }
+    .left{
+        width:100%;
+        margin-bottom: 50px;
+    }
+    .right{
+       width:100%;
+    }
+    .stxtover{
+        width:99%;
+        top:72%;
+    }
+    #expp1{
+        font-size: 16px;
+        
+    }
+    #expp2{
+        font-size: 16px;
+       
+    }
+    .elb{
+        color:white;
+        border:1px solid white;
+        background-color: transparent;
+        width:100px;
+        font-size: 12px;
+        padding: 3px;
+    }
+    .logo i{
+        padding-top:10px;
+        padding-left: 30px;
+    }
+}
+@media only screen and (max-width:952px){
+    .div1{
+        width:100%;
+    }
+    .div2{
+        width:100%;
+    }
+    #expp1{
+        font-size: 15px;
+        
+    }
+    #expp2{
+        font-size: 15px;
+       
+    }
+}
+@media only screen and (max-width:779px){
+    #expp1{
+        font-size: 13px;
+        
+    }
+    #expp2{
+        font-size: 13px;
+       
+    }
+}
+@media only screen and (max-width:697px){
+    .fooleft{
+        width:100%;
+    }
+    .foocenter{
+        width:100%;
+    }
+    .fooright{
+        width:100%;
+    }
+}
+@media only screen and (max-width:697px){
+    .stxtover{
+        width:99%;
+        top:72%;
+    }
+}
+@media only screen and (max-width:667px){
+    .stxtover{
+        width:99%;
+        top:69%;
+    }
+    .logo i{
+        padding-top:10px;
+        padding-left: 40px;
+    }
+}
+@media only screen and (max-width:613px){
+    #expp1{
+        font-size: 13px;
+    }
+    #expp2{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:612px){
+    #expp1{
+        font-size: 13px;
+    }
+    #expp2{
+        font-size: 13px;
+    }
+    .elb{
+        width:80px;
+        font-size:9px;
+    }
+}
+@media only screen and (max-width:532px){
+    #expp1{
+        font-size: 12px;
+    }
+    #expp2{
+        font-size: 12px;
+    }
+    .elb{
+        width:60px;
+        font-size:7px;
+    }
+}
+@media only screen and (max-width:519px){
+    .rc{
+        margin-bottom: 2px;
+        font-size:14px;
+    }
+}
+@media only screen and (max-width:506px){
+    .hov{
+        font-size:15px;
+    }
+    #drp1{
+        font-size:15px;
+    }
+    #drp2{
+        font-size:15px;
+    }
+    .list{
+        padding:10px;
+    }
+    .sleft{
+        width:100%;
+        margin-bottom: 10px;
+    }
+    .scenter{
+        width:100%;
+        margin-left: 0%;
+        margin-bottom: 10px;
+    }
+    .sright{
+        width:100%;
+        margin-left: 0%;
+    }
+    .rs{
+        font-size: 16px;
+    }
+    .expleft{
+        width:100%;
+        margin-bottom: 10px;
+    }
+    .expright{
+        width:100%;
+        margin-left: 0%;
+    }
+    #expp1{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    #expp2{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .elb{
+        width:100px;
+        font-size:12px;
+    }
+}
+@media only screen and (max-width:447px){
+.hov{
+    font-size:10px;
+}
+#drp1{
+    font-size:10px;
+}
+#drp2{
+    font-size:10px;
+}
+.list{
+    padding:10px;
+}
+}
+@media only screen and (max-width:438px){
+    .stxtover{
+        top:70%;
+    }
+    .rs{
+        font-size: 14px;
+    }
+    .rc{
+        font-size:13px ;
+        margin-bottom: 1px;
+        margin-top: 1px;
+    }
+    .btn1{
+        font-size: 13px;
+        width:100px;
+    }
+}
+@media only screen and (max-width:420px){
+    .r1{
+        width:100%;
+    }
+    .imgg{
+        width:100%;
+        height:150px;
+        margin-bottom:10px;
+    }
+    .rp{
+        width:100%;
+        margin-top:15px;
+    }
+    .rs{
+        font-size:18px;
+    }
+    .rc{
+        width:100%;
+        margin-top:8px;
+        font-size: 15px;
+        margin-bottom:10px;
+    }
+    .btn1{
+        margin-left:120px;
+    }
+}
+@media only screen and (max-width:401px){
+    #expp1{
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    #expp2{
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .elb{
+        width:100px;
+        font-size:12px;
+       
+    }
+
+}
+@media only screen and (max-width:354px){
+    .stxtover{
+        top:67%;
+    }
+    .div2{
+        margin-bottom: 20px;
+    }
+    #drp1{
+        font-size: 16px;
+    }
+    #drp2{
+        font-size: 16px;
+    }
+    .list li{
+       display: block;
+       padding: 2px;
+       font-size: 17px;
+    }
+}
