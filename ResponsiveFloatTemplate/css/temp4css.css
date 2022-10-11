@@ -567,3 +567,13 @@ li{
         
     }
 }
+@media only screen and (max-width:238px){
+    .stxtover{
+        top:62%;
+    }
+}
+@media only screen and (max-width:201px){
+    .stxtover{
+        top:59%;
+    }
+}
